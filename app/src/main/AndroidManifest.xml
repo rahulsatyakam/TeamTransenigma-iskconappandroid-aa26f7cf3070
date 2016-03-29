@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.transenigma.iskconapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.NETWORK" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:name=".ParseApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".start"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.parse.APPLICATION_ID"
+            android:value="8ih2cFwU0nN2Bdp39n7xGOlfumKbPD4ODldqFosk" />
+        <meta-data
+            android:name="com.parse.CLIENT_KEY"
+            android:value="cWzfGS01dtGLVfjRYnjMekPDxrtXXkjK5dmVYk8d" />
+
+        <activity
+            android:name=".signup"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".login"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".home"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+        android:name=".events"
+        android:label="@string/title_activity_events"
+        android:screenOrientation="portrait"
+        android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".webView"
+            android:label="@string/title_activity_events"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".event_detail"
+            android:label="@string/title_activity_event_detail"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".add_event"
+            android:label="@string/title_activity_add_event"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".detail"
+            android:label="@string/title_activity_detail"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".event_map"
+            android:label="@string/title_activity_event_map"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".about"
+            android:label="@string/title_activity_about"
+
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ISKCON_Centres"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <!-- <activity -->
+        <!-- android:name=".MainActivity" -->
+        <!-- android:label="@string/title_activity_main" -->
+        <!-- android:screenOrientation="portrait" -->
+        <!-- android:theme="@style/AppTheme.NoActionBar" /> -->
+        <activity
+            android:name=".profile"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/app_id" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name=".read_books"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".ShowEventToUser"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".centres_detail"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".visited_events"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".visited_centres"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".eventmanagement.EventManagement"
+            android:label="@string/title_activity_event_management"
+            android:parentActivityName=".events"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.transenigma.iskconapp.events" />
+        </activity>
+        <activity
+            android:name=".eventmanagement.Charts"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".eventmanagement.MyEvents"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".edit_event"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".feedback.Feedbacks"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RssFeeds"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".bookActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".eventmanagement.SineCosineFragment"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="primary">#5cc1f7</color>
+    <color name="primary_dark">#1d98be</color>
+    <color name="primaryDark">#1d98be</color>
+    <color name="primary_darker">#1974b6</color>
+    <color name="accent">#FFFFFF</color>
+    <color name="colorPrimaryLight">#B3E5FC</color>
+    <color name="colorHighlight">#B6B6B6</color>
+    <color name="colorPrimaryText">#212121</color>
+    <color name="colorSecondaryText">#727272</color>
+    <color name="colorDivider">#B6B6B6</color>
+    <color name="black">#000000</color>
+    <color name="jet">#222222</color>
+    <color name="oil">#333333</color>
+    <color name="monsoon">#777777</color>
+    <color name="jumbo">#888888</color>
+    <color name="aluminum">#999999</color>
+    <color name="base">#AAAAAA</color>
+    <color name="iron">#CCCCCC</color>
+    <color name="white">#FFFFFF</color>
+    <!--<color name="IskconTab">#304FFE</color>-->
+    <color name="IskconTab">#007bb6</color>
+ <color name="psts_background_tab_pressed">#1AFFFFFF</color>
+    <color name="psts_background_tab_pressed_ripple">#AAFFFFFF</color>
+
+    <color name="theme_default_primary_light">#ffff598e</color>
+    <color name="theme_default_primary">#e91e63</color>
+    <color name="theme_default_primary_dark">#c2185b</color>
+    <color name="theme_default_accent">#8f673ab7</color>
+    <color name="theme_default_accent_light">#8f9575cd</color>
+    <color name="theme_default_accent_dark">#8f512da8</color>
+    <color name="theme_background">#f2f2f2</color>
+    <color name="photo_tint">#7f101010</color>
+    <color name="default_dark_muted">#44424f</color>
+    <color name="default_dark_vibrant">#7b400a</color>
+    <color name="default_vibrant">#f3aa66</color>
+    <color name="default_light_muted">#c9be9c</color>
+    <color name="default_light_vibrant">#fcda99</color>
+    <color name="default_muted">#7f7c8a</color>
+
+
+    <color name="background_window">#FFE5E5E5</color>
+    <color name="green">#689F38</color>
+    <color name="greenDark">#3E5F22</color>
+    <color name="banana">#FFCC00</color>
+
+</resources>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+    android:orientation="vertical">
+    <CheckBox android:id="@+id/checkBox2" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="CheckBox 1"></CheckBox>
+    <CheckBox android:id="@+id/checkBox3" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="CheckBox 2"></CheckBox>
+    <CheckBox android:id="@+id/checkBox1" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="CheckBox 3"></CheckBox>
+</LinearLayout>
+
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:orientation="vertical"-->
+    <!--tools:showIn="@layout/content_event_detail">-->
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Choose Tags"-->
+        <!--android:textSize="25dp"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:layout_marginTop="15dp"-->
+        <!--android:layout_marginBottom="10dp"-->
+        <!--android:textColor="#000000" />-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="4dp">-->
+    <!--<com.transenigma.iskconapp.AnimCheckBox-->
+        <!--android:layout_gravity="left"-->
+        <!--android:layout_width="50dp"-->
+        <!--android:padding="4dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--app:stroke_width="4dp"-->
+        <!--app:stroke_color="#2196F3"-->
+        <!--app:circle_color="#1976D2"-->
+        <!--android:id="@+id/myKirtans"/>-->
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center_vertical"-->
+        <!--android:textSize="20dp"-->
+        <!--android:text="Kirtans"-->
+        <!--android:layout_marginLeft="4dp"-->
+        <!--android:textColor="#000000" />-->
+
+<!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="4dp">-->
+        <!--<com.transenigma.iskconapp.AnimCheckBox-->
+            <!--android:layout_gravity="left"-->
+            <!--android:layout_width="50dp"-->
+            <!--android:padding="4dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--app:stroke_width="4dp"-->
+            <!--app:stroke_color="#2196F3"-->
+            <!--app:circle_color="#1976D2"-->
+            <!--android:id="@+id/myLectures"/>-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:textSize="20dp"-->
+            <!--android:text="Lectures"-->
+            <!--android:layout_marginLeft="4dp"-->
+            <!--android:textColor="#000000" />-->
+
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+        <!--<com.transenigma.iskconapp.AnimCheckBox-->
+            <!--android:layout_gravity="left"-->
+            <!--android:layout_width="50dp"-->
+            <!--android:padding="4dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--app:stroke_width="4dp"-->
+            <!--app:stroke_color="#2196F3"-->
+            <!--app:circle_color="#1976D2"-->
+            <!--android:id="@+id/myBhagwatKatha"-->
+            <!--android:layout_marginLeft="4dp" />-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:textSize="20dp"-->
+            <!--android:text="Bhagwat Katha"-->
+            <!--android:layout_marginLeft="4dp"-->
+            <!--android:textColor="#000000" />-->
+
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="4dp">-->
+        <!--<com.transenigma.iskconapp.AnimCheckBox-->
+            <!--android:layout_gravity="left"-->
+            <!--android:layout_width="50dp"-->
+            <!--android:padding="4dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--app:stroke_width="4dp"-->
+            <!--app:stroke_color="#2196F3"-->
+            <!--app:circle_color="#1976D2"-->
+            <!--android:id="@+id/myRathaYatra"/>-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:textSize="20dp"-->
+            <!--android:text="Ratha Yatra"-->
+            <!--android:layout_marginLeft="4dp"-->
+            <!--android:textColor="#000000" />-->
+
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+        <!--<com.transenigma.iskconapp.AnimCheckBox-->
+            <!--android:layout_gravity="left"-->
+            <!--android:layout_width="50dp"-->
+            <!--android:padding="4dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--app:stroke_width="4dp"-->
+            <!--app:stroke_color="#2196F3"-->
+            <!--app:circle_color="#1976D2"-->
+            <!--android:id="@+id/myPandalProg"-->
+            <!--android:layout_marginLeft="4dp" />-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:textSize="20dp"-->
+            <!--android:text="Pandal Program"-->
+            <!--android:layout_marginLeft="4dp"-->
+            <!--android:textColor="#000000" />-->
+
+    <!--</LinearLayout>-->
+
+
+<!--</LinearLayout>-->
+
+

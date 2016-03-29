@@ -1,0 +1,114 @@
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_horizontal"
+    android:id="@+id/mySearchLin"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:weightSum="1">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:weightSum="1">
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="0dp">
+            <EditText android:id="@+id/mySearchText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:hint="@string/Search_hint"
+                android:minWidth="320dp"
+                android:maxWidth="320dp" />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <ImageView
+            android:id="@+id/mySearchBtn"
+            android:layout_height="35dp"
+            android:layout_width="35dp"
+            android:onClick="clickSearchBtn"
+            android:src="@drawable/icon"
+            android:layout_marginTop="10dp"
+            android:scaleType="centerCrop"
+            android:nestedScrollingEnabled="false"
+            android:background="#ffffff" />
+
+    </LinearLayout>
+
+    <TabHost
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tabHost"
+        android:layout_gravity="right">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></TabWidget>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/linearLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"></LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"></LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"></LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:map="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context="com.transenigma.iskconapp.add_event" />
+
+        <Button
+            android:layout_width="262dp"
+            android:layout_height="wrap_content"
+            android:text="Confirm Location"
+            android:id="@+id/myConfirmLocation"
+            android:layout_gravity="center_horizontal|bottom"
+            android:background="#4180f4"
+            android:textColor="#ffffff"
+            android:nestedScrollingEnabled="false"
+            android:onClick="clickConfirmLocation"
+            android:layout_marginBottom="5dp" />
+
+
+    </FrameLayout>
+
+
+</LinearLayout>

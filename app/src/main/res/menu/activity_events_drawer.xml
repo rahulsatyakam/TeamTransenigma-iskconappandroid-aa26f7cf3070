@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--<item android:title="Location">-->
+        <!---->
+    <!--<group android:checkableBehavior="single">-->
+
+        <!--<item-->
+            <!--android:id="@+id/myClickNearMe"-->
+            <!--android:icon="@drawable/nearme"-->
+            <!--android:title="@string/Near_Me" />-->
+        <!--<item-->
+            <!--android:id="@+id/myClickCity"-->
+            <!--android:icon="@drawable/city"-->
+            <!--android:title="@string/city" />-->
+        <!--<item-->
+            <!--android:id="@+id/myClickState"-->
+            <!--android:icon="@drawable/state"-->
+            <!--android:title="@string/State" />-->
+        <!--<item-->
+            <!--android:id="@+id/myClickCountry"-->
+            <!--android:icon="@drawable/country"-->
+            <!--android:title="@string/Country" />-->
+        <!--<item-->
+            <!--android:id="@+id/myClickWorld"-->
+            <!--android:icon="@drawable/world"-->
+            <!--android:title="@string/World" />-->
+
+    <!--</group>-->
+    <!--</item>-->
+
+    <item
+        android:id="@+id/myClickLocation"
+        android:icon="@drawable/nearme"
+        android:title="Location"></item>
+    <item
+        android:id="@+id/myClickAge"
+        android:icon="@drawable/age"
+        android:title="Age">
+
+    </item>
+    <item
+    android:id="@+id/myClickAshram"
+    android:icon="@drawable/contactname"
+    android:title="Ashram">
+
+</item>
+
+    <item
+    android:id="@+id/myClickTag"
+    android:icon="@drawable/tag"
+    android:title="Events"></item>
+
+</menu>

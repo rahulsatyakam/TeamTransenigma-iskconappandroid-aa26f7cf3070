@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"  >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/thumb_up_outline"
+            android:title="Likes" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/note_text"
+            android:title="Feedback" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/owl"
+            android:title="Views" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/login"
+            android:title="Attended" />
+        <item
+            android:id="@+id/nav_manage1"
+            android:icon="@drawable/comment_check_outline"
+            android:title="Interested" />
+        <item
+            android:id="@+id/nav_manage2"
+            android:icon="@drawable/comment_question_outline"
+            android:title="Maybe" />
+        <item
+            android:id="@+id/nav_manage3"
+            android:icon="@drawable/comment_remove_outline"
+            android:title="NotInterested" />
+        <item
+            android:id="@+id/nav_manage4"
+            android:icon="@drawable/file_import"
+            android:title="Export" />
+        <item
+            android:id="@+id/nav_manage5"
+            android:icon="@drawable/edit"
+            android:title="Edit" />
+    </group>
+
+</menu>

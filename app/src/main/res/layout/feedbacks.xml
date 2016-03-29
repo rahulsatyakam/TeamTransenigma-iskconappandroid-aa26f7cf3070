@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <android.support.v7.widget.Toolbar
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:local="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/feedbacks_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/IskconTab"
+            android:minHeight="?attr/actionBarSize"
+            android:layout_marginBottom="5dp"
+            local:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            local:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+
+        <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    </LinearLayout>
+    <android.support.design.widget.FloatingActionButton
+    android:id="@+id/savefeedbacks"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom|end"
+    android:layout_margin="@dimen/fab_margin"
+    android:src="@android:drawable/ic_menu_save"
+    app:backgroundTint="#fc9696" />
+
+</android.support.design.widget.CoordinatorLayout>

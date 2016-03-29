@@ -1,0 +1,309 @@
+<resources>
+    <string name="app_name">ISKCON App</string>
+    <string name="Target_Audience">Target Audience</string>
+    <string name="Target_Age">Target Age</string>
+    <string name="Target_Gender">Target Gender</string>
+    <string name="Target_Ashram">Target Ashram</string>
+    <string name="Tags">Event Tags</string>
+    <string name="surname_hint">Surname</string>
+    <string name="spiritualname_hint">Spiritual Name</string>
+    <string name="spiritual_master">Spiritual Master</string>
+    <string name="phone_hint">Contact Number</string>
+    <string name="dob_hint">Date of Birth</string>
+    <string name="gender_hint">Gender</string>
+    <string name="City">City</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_share">Share</string>
+    <string name="email_hint">Email</string>
+    <string name="logo">Logo</string>
+    <string name="password_hint">Password</string>
+    <string name="password_confirm_hint">Confirm Password</string>
+    <string name="singup_text">No account ? Create one</string>
+    <string name="login_button">Login</string>
+    <string name="nextBtn">Next</string>
+    <string name="editBtn">Edit</string>
+    <string name="name">Name</string>
+    <string name="create_account">Create Account</string>
+    <string name="already_member">Already a member? Login</string>
+    <string name="title_activity_login">login</string>
+    <string name="title_activity_signup">signup</string>
+    <string name="title_activity_home">home</string>
+    <string name="title_activity_add_event">Map</string>
+    <string name="Search_hint">Search Place</string>
+    <string name="SearchBtn">Search</string>
+    <string name="title_activity_event_detail">Event Details</string>
+    <string name="Block_Address">Block Address</string>
+    <string name="street">Street</string>
+    <string name="city">City</string>
+    <string name="Country">Country</string>
+    <string name="event_name">Event Name</string>
+    <string name="Start_Date">Start Date/Time</string>
+    <string name="End_Date">End Date/Time</string>
+    <string name="Add_google_map">Mark Place on Google Map</string>
+    <string name="Event_description">About Event and Fees</string>
+    <string name="title_activity_events">events</string>
+
+    <string name="drawer_open">Drawer Opened</string>
+    <string name="drawer_close">Drawer Closed</string>
+    <string name="Event_start_date">Large Text</string>
+    <string name="Near_Me">All</string>
+    <string name="State">State</string>
+    <string name="World">World</string>
+
+    <string-array name="drawer_list">
+        <item>City</item>
+        <item>State</item>
+        <item>Country</item>
+        <item>Continent</item>
+        <item>World</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_show_event">show_event</string>
+    <string name="title_activity_detail">detail</string>
+    <string name="title_activity_event_map">Map</string>
+    <string name="title_activity_about">about</string>
+
+    <string name="pdf_show_local_progress_title">title</string>
+    <string name="pdf_show_online_dialog_title">Continue in WebView</string>
+    <string name="pdf_show_online_dialog_question">You have no PDF reader installed! Continue in webview</string>
+    <string name="pdf_show_online_dialog_button_yes">OK</string>
+    <string name="pdf_show_local_progress_content">progress</string>
+    <string name="title_activity_main">Main Activity</string>
+    <string name="radha">The International Society for Krishna Consciousness (ISKCON), known colloquially as the Hare Krishna movement or Hare Krishnas, is a Gaudiya Vaishnava religious organisation. ISKCON was founded in 1966 in New York City by A. C. Bhaktivedanta Swami Prabhupada who is worshipped by followers as Guru and spiritual master. Its core beliefs are based on select traditional Hindu scriptures, particularly the Bhagavad-gītā and the Śrīmad Bhāgavatam. ISKCON says it is a direct descendant of Brahma-Madhva-Gaudiya Vaishnava Sampradaya. The appearance of the movement and its culture come from the Gaudiya Vaishnava tradition, which has had adherents in India since the late 15th century and American and European converts since the early 1900s in North America, and in England in the 1930s.</string>
+   <string name="sp">His Divine Grace A.C. Bhaktivedanta Swami Prabhupada (1896-1977) is widely regarded as the foremost Vedic scholar, translator, and teacher of the modern era. He is especially respected as the world\'s most prominent contemporary authority on bhakti yoga, devotional service to the Supreme Person, Krishna, as taught by the ancient Vedic writings of India. He is also the founder-acharya of the International Society for Krishna Consciousness.
+    Srila Prabhupada, as he\'s known to his followers, translated and commented on over eighty volumes of the Vedas\' most important sacred bhakti texts, including the Bhagavad-gita—a concise handbook for understanding the purpose and goal of human life and the multi-volume Srimad-Bhagavatam—an epic biography of Krishna, Krishna\'s avatars, and His many devotees throughout the history of the universe.
+    Srila Prabhupada\'s own spiritual master, Srila Bhaktisiddhanta Sarasvati Thakur, was the leading proponent of Krishna consciousness in India during the early part of the twentieth century. He specifically taught the philosophy of Chaitanya Mahaprabhu, the divine avatar who revived Krishna-bhakti all over India in the 1500s. When Srila Bhaktisiddhanta first met the young man later known as Srila Prabhupada - in Calcutta in 1922 - he urged him to preach Chaitanya Mahaprabhu\'s message of Krishna consciousness throughout the English-speaking world.
+    After forty years of struggling within India to carry out his guru\'s order, while maintaining family and business responsibilities, Srila Prabhupada boarded a steamship bound from Calcutta to New York City in 1965. At age sixty-nine, with forty rupees and a trunk of his Bhagavatam commentaries - the first ever in English - his aim was to introduce "India\'s message of peace and goodwill" to the western world. During the last twelve years of his life, Srila Prabhupada would inspire thousands of Westerners and Indians to devote their lives to Krishna consciousness, launching one of the fastest-growing spiritual movements in the history of the world.
+    Many scholars and professors who met him and became familiar with his work continue to use Srila Prabhupada\'s books as standard university texts, and regard him as a genuine, realized, and scholarly teacher of bhakti. His authoritative yet down-to-earth presentation of Vedas continues to inspire a worldwide audience.
+    With the help of his students, he founded the International Society for Krishna Consciousness (ISKCON). ISKCON is popularly known as the "Hare Krishna" movement, due to its members\' widespread practice of chanting the Hare Krishna mantra in public. Srila Prabhupada intended ISKCON to facilitate the association and education of bhakti-yoga practitioners, and his followers continue to spread that mission.</string>
+    <string name="history">The Hare Krishna movement — formally known as ISKCON, the International Society of Krishna Consciousness — is a semi-monastic religious movement based on Vaishnava Hinduism. In part modeled on the bhakti (loving devotion) movement of the 16th-century Hindu saint Caitanya, ISKCON was founded in 1965 C.E. by A.C. Bhaktivedanta, who moved to the United States from India with the intention of bringing "Krishna consciousness" to the West. Hare Krishna followers worship the Hindu god Vishnu in his earthly manifestation as Krishna. The ultimate goal of Hare Krishna devotion is to achieve "Krishna consciousness," attained by strict ethical living and spiritual devotion, especially repetitive chanting of the Hare Krishna mantra: "Hare Krishna Hare Krishna/Krishna Krishna Hare Hare/Hare Rama Hare Rama/Rama Rama Hare Har." ISKCON members typically observe a vegetarian diet (including no fish or eggs), do not gamble, ingest alcohol or drugs (including caffeine), and restrain from sex except within marriage for the purposes of procreation. The Hare Krishna tradition has two groups of devotees: "congregational members" and "temple-based" or full members. Congregational members practice the movement\'s teachings in normal life at home and work, and then worship at congregational temples. The full members live in Hare Krishna temples and lead ascetic lifestyles of devotion. The movement puts particular emphasis on the Bhagavad Gita and other Krishna-centered sacred texts.</string>
+    <string name="headquarters">Mayapur is located on the banks of the Ganges river, at the point of its confluence with the Jalangi, near Navadvip, West Bengal, India, 130 km north of Kolkata (Calcutta). The headquarters of ISKCON are situated in Mayapur and it is considered a holy place by a number of other traditions within Hinduism, but is of special significance to followers of Gaudiya Vaishnavism as the birthplace of Chaitanya Mahaprabhu, regarded as a special incarnation of Krishna in the mood of Radha. It is visited by over a million pilgrims annually.</string>
+    <string name="foodforlife">Hare Krishna Food for Life is the world\'s largest vegetarian non-profit food relief organization. Its efforts span the globe, with projects occupying over 60 countries. Volunteers provide up to 2,000,000 free meals daily. Food For Life does not only tackle only one form of hunger but reaches out to all in need, including; the homeless, disadvantaged children throughout India; and victims of natural disasters around the world.
+
+    With roots in India, the Food for Life project is a modern-day revival of the ancient Vedic culture of hospitality with its belief in the equality of all beings. It was conceived of and began by the International Society for Krishna Consciousness in 1974 and is thus commonly known as ISKCON Food For Life or Hare Krishna Food For Life. It has been lauded by The New York Times Vegetarian Times, as well as Paul McCartney and Nelson Mandela amongst others, for its relief efforts worldwide.</string>
+
+    <string name="terms">By logging in you\'re agreeing to the <u> Terms of Use and Privacy Policy</u></string>
+    <string name="TermsMessage">All copyright, trade marks, design rights, patents and other intellectual property rights (registered and unregistered) in and on BBC Online Services and BBC Content belong to the BBC and/or third parties (which may include you or other users.) The BBC reserves all of its rights in BBC Content and BBC Online Services. Nothing in the Terms grants you a right or licence to use any trade mark, design right or copyright owned or controlled by the BBC or any other third party except as expressly provided in the Terms.</string>
+    <string name="OK">OK</string>
+
+    <string name="profile">Edit Profile</string>
+    <string name="logout">Logout</string>
+    <string name="VisitedEvents">Favourites</string>
+    <string name="AddEvents">Submit an Event</string>
+    <string name="VisitedCentres">My Centres</string>
+    <string name="EventManagement">Event Management</string>
+
+    <string name="edit_profile">Save Profile</string>
+
+    <string name="app_id">1653773711541181</string>
+
+    <string name="Forgot_Pass">Forgot Password</string>
+
+    <string name="Event_Address">Event Address</string>
+    <string name="Address_details">Fill the details of Event address</string>
+
+    <string-array name="book_names">
+        <!--<item>Bhagwad Gita As It Is</item>-->
+        <!--<item>SB Canto 1 Volume 1</item>-->
+        <!--<item>SB Canto 1 Volume 2</item>-->
+        <!--<item>SB Canto 1 Volume 3</item>-->
+        <!--<item>SB Canto 2 Volume 1</item>-->
+        <!--<item>SB Canto 2 Volume 2</item>-->
+        <!--<item>SB Canto 3 Volume 1</item>-->
+        <!--<item>SB Canto 3 Volume 2</item>-->
+        <!--<item>SB Canto 3 Volume 3</item>-->
+        <!--<item>SB Canto 3 Volume 4</item>-->
+        <!--<item>SB Canto 4 Volume 1</item>-->
+        <!--<item>SB Canto 4 Volume 2</item>-->
+        <!--<item>SB Canto 4 Volume 3</item>-->
+        <!--<item>SB Canto 4 Volume 4</item>-->
+        <!--<item>SB Canto 5 Volume 1</item>-->
+        <!--<item>SB Canto 5 Volume 2</item>-->
+        <!--<item>SB Canto 6 Volume 1</item>-->
+        <!--<item>SB Canto 6 Volume 2</item>-->
+        <!--<item>SB Canto 6 Volume 3</item>-->
+        <!--<item>SB Canto 7 Volume 1</item>-->
+        <!--<item>SB Canto 7 Volume 2</item>-->
+        <!--<item>SB Canto 7 Volume 3</item>-->
+        <!--<item>SB Canto 8 Volume 1</item>-->
+        <!--<item>SB Canto 8 Volume 2</item>-->
+        <!--<item>SB Canto 8 Volume 3</item>-->
+        <!--<item>SB Canto 9 Volume 1</item>-->
+        <!--<item>SB Canto 9 Volume 2</item>-->
+        <!--<item>SB Canto 9 Volume 3</item>-->
+        <!--<item>SB Canto 10 Volume 1</item>-->
+        <!--<item>SB Canto 10 Volume 2</item>-->
+        <!--<item>SB Canto 10 Volume 3</item>-->
+        <!--<item>CC ADI 1</item>-->
+        <!--<item>CC ADI 2</item>-->
+        <!--<item>CC ADI 3</item>-->
+        <!--<item>CC MADHYA 1</item>-->
+        <!--<item>CC MADHYA 2</item>-->
+        <!--<item>CC MADHYA 3</item>-->
+        <!--<item>CC MADHYA 4</item>-->
+        <!--<item>CC MADHYA 5</item>-->
+        <!--<item>CC MADHYA 6</item>-->
+        <!--<item>CC MADHYA 7</item>-->
+        <!--<item>CC MADHYA 8</item>-->
+        <!--<item>CC MADHYA 9</item>-->
+        <!--<item>CC ANTYA 1</item>-->
+        <!--<item>CC ANTYA 2</item>-->
+        <!--<item>CC ANTYA 3</item>-->
+        <!--<item>CC ANTYA 4</item>-->
+        <!--<item>CC ANTYA 5</item>-->
+        <!--<item>Teachings of Lord Kapila</item>-->
+        <item>Teachings of Queen Kunti</item>
+        <item>Krishna Reservior of Pleasure</item>
+        <item>Easy Journey to Other Planets</item>
+        <item>Sri Isopanishad</item>
+        <item>The Matchless Gift</item>
+        <item>Raja Vidya</item>
+        <item>The Perfection of Yoga</item>
+        <item>Nectar of Instruction</item>
+        <item>Perfect Ques Perfect Ans</item>
+        <item>Nectar of Devotion</item>
+        <item>Elevation to KC</item>
+        <item>KRISHNA Vol 1</item>
+        <item>KRISHNA Vol 2</item>
+        <item>On The Way to Krishna</item>
+        <item>Teachings of Lord Chaitanya</item>
+        <item>Science of Self Realisation</item>
+        <item>Light of Bhagawata</item>
+        <item>Hare Krishna Cook Book</item>
+        <item>Beyond Birth And Death</item>
+    </string-array>
+
+    <string-array name="book_authors">
+        <item>HDG AC Bhaktivedanta Swami Prabhupad</item>
+        <item>HDG AC Bhaktivedanta Swami Prabhupad</item>
+        <item>HDG AC Bhaktivedanta Swami Prabhupad</item>
+        <item>HDG AC Bhaktivedanta Swami Prabhupad</item>
+        <item>HDG AC Bhaktivedanta Swami Prabhupad</item>
+        <item>HDG AC Bhaktivedanta Swami Prabhupad</item>
+        <item>HDG AC Bhaktivedanta Swami Prabhupad</item>
+        <item>HDG AC Bhaktivedanta Swami Prabhupad</item>
+        <item>HDG AC Bhaktivedanta Swami Prabhupad</item>
+        <item>HDG AC Bhaktivedanta Swami Prabhupad</item>
+        <item>HDG AC Bhaktivedanta Swami Prabhupad</item>
+        <item>HDG AC Bhaktivedanta Swami Prabhupad</item>
+        <item>HDG AC Bhaktivedanta Swami Prabhupad</item>
+        <item>HDG AC Bhaktivedanta Swami Prabhupad</item>
+        <item>HDG AC Bhaktivedanta Swami Prabhupad</item>
+        <item>HDG AC Bhaktivedanta Swami Prabhupad</item>
+        <item>HDG AC Bhaktivedanta Swami Prabhupad</item>
+        <item>HDG AC Bhaktivedanta Swami Prabhupad</item>
+        <item>HDG AC Bhaktivedanta Swami Prabhupad</item>
+        <item>HDG AC Bhaktivedanta Swami Prabhupad</item>
+        <item>HDG AC Bhaktivedanta Swami Prabhupad</item>
+        <item>HDG AC Bhaktivedanta Swami Prabhupad</item>
+        <item>HDG AC Bhaktivedanta Swami Prabhupad</item>
+        <item>HDG AC Bhaktivedanta Swami Prabhupad</item>
+        <item>HDG AC Bhaktivedanta Swami Prabhupad</item>
+        <item>HDG AC Bhaktivedanta Swami Prabhupad</item>
+        <item>HDG AC Bhaktivedanta Swami Prabhupad</item>
+        <item>HDG AC Bhaktivedanta Swami Prabhupad</item>
+        <item>HDG AC Bhaktivedanta Swami Prabhupad</item>
+        <item>HDG AC Bhaktivedanta Swami Prabhupad</item>
+        <item>HDG AC Bhaktivedanta Swami Prabhupad</item>
+        <item>HDG AC Bhaktivedanta Swami Prabhupad</item>
+        <item>HDG AC Bhaktivedanta Swami Prabhupad</item>
+        <item>HDG AC Bhaktivedanta Swami Prabhupad</item>
+        <item>HDG AC Bhaktivedanta Swami Prabhupad</item>
+        <item>HDG AC Bhaktivedanta Swami Prabhupad</item>
+        <item>HDG AC Bhaktivedanta Swami Prabhupad</item>
+        <item>HDG AC Bhaktivedanta Swami Prabhupad</item>
+        <item>HDG AC Bhaktivedanta Swami Prabhupad</item>
+        <item>HDG AC Bhaktivedanta Swami Prabhupad</item>
+        <item>HDG AC Bhaktivedanta Swami Prabhupad</item>
+        <item>HDG AC Bhaktivedanta Swami Prabhupad</item>
+        <item>HDG AC Bhaktivedanta Swami Prabhupad</item>
+        <item>HDG AC Bhaktivedanta Swami Prabhupad</item>
+        <item>HDG AC Bhaktivedanta Swami Prabhupad</item>
+        <item>HDG AC Bhaktivedanta Swami Prabhupad</item>
+        <item>HDG AC Bhaktivedanta Swami Prabhupad</item>
+        <item>HDG AC Bhaktivedanta Swami Prabhupad</item>
+        <item>HDG AC Bhaktivedanta Swami Prabhupad</item>
+        <item>HDG AC Bhaktivedanta Swami Prabhupad</item>
+        <item>HDG AC Bhaktivedanta Swami Prabhupad</item>
+        <item>HDG AC Bhaktivedanta Swami Prabhupad</item>
+        <item>HDG AC Bhaktivedanta Swami Prabhupad</item>
+        <item>HDG AC Bhaktivedanta Swami Prabhupad</item>
+        <item>HDG AC Bhaktivedanta Swami Prabhupad</item>
+        <item>HDG AC Bhaktivedanta Swami Prabhupad</item>
+        <item>HDG AC Bhaktivedanta Swami Prabhupad</item>
+        <item>HDG AC Bhaktivedanta Swami Prabhupad</item>
+        <item>HDG AC Bhaktivedanta Swami Prabhupad</item>
+        <item>HDG AC Bhaktivedanta Swami Prabhupad</item>
+        <item>HDG AC Bhaktivedanta Swami Prabhupad</item>
+        <item>HDG AC Bhaktivedanta Swami Prabhupad</item>
+        <item>HDG AC Bhaktivedanta Swami Prabhupad</item>
+        <item>HDG AC Bhaktivedanta Swami Prabhupad</item>
+        <item>HDG AC Bhaktivedanta Swami Prabhupad</item>
+        <item>HDG AC Bhaktivedanta Swami Prabhupad</item>
+        <item>HDG AC Bhaktivedanta Swami Prabhupad</item>
+        <item>HDG AC Bhaktivedanta Swami Prabhupad</item>
+
+    </string-array>
+    <!--<string name="CCADI1">http://prabhupadabooks.com/pdf/CC1974/adi1.pdf</string>-->
+    <!--<string name="CCADI2">http://prabhupadabooks.com/pdf/CC1974/adi2.pdf</string>-->
+    <!--<string name="CCADI3">http://prabhupadabooks.com/pdf/CC1974/adi3.pdf</string>-->
+    <!--<string name="CCMADHYA1">http://prabhupadabooks.com/pdf/CC1974/mad1.pdf</string>-->
+    <!--<string name="CCMADHYA2">http://prabhupadabooks.com/pdf/CC1974/mad2.pdf</string>-->
+    <!--<string name="CCMADHYA3">http://prabhupadabooks.com/pdf/CC1974/mad3.pdf</string>-->
+    <!--<string name="CCMADHYA4">http://prabhupadabooks.com/pdf/CC1974/mad4.pdf</string>-->
+    <!--<string name="CCMADHYA5">http://prabhupadabooks.com/pdf/CC1974/mad5.pdf</string>-->
+    <!--<string name="CCMADHYA6">http://prabhupadabooks.com/pdf/CC1974/mad6.pdf</string>-->
+    <!--<string name="CCMADHYA7">http://prabhupadabooks.com/pdf/CC1974/mad7.pdf</string>-->
+    <!--<string name="CCMADHYA8">http://prabhupadabooks.com/pdf/CC1974/mad8.pdf</string>-->
+    <!--<string name="CCMADHYA9">http://prabhupadabooks.com/pdf/CC1974/mad9.pdf</string>-->
+    <!--<string name="CCANTYA1">http://prabhupadabooks.com/pdf/CC1974/ant1.pdf</string>-->
+    <!--<string name="CCANTYA2">http://prabhupadabooks.com/pdf/CC1974/ant2.pdf</string>-->
+    <!--<string name="CCANTYA3">http://prabhupadabooks.com/pdf/CC1974/ant3.pdf</string>-->
+    <!--<string name="CCANTYA4">http://prabhupadabooks.com/pdf/CC1974/ant4.pdf</string>-->
+    <!--<string name="CCANTYA5">http://prabhupadabooks.com/pdf/CC1974/ant5.pdf</string>-->
+    <!--<string name="TeachingsofLordKapila">http://prabhupadabooks.com/pdf/TeachingsOfLordKapila.pdf</string>-->
+    <string name="TeachingsofQueenKunti">http://prabhupadabooks.com/pdf/TeachingsOfQueenKunti.pdf</string>
+    <string name="KrishnaReserviorofPleasure">http://prabhupadabooks.com/pdf/TWO_ESSAYS-Krishna_the_Reservoir_of_Pleasure-Who_is_Crazy-book_SCAN.pdf</string>
+    <string name="EasyJourneytoOtherPlanets">http://prabhupadabooks.com/pdf/Easy-Journy-to-Other-Planets-1977-Scanned-edition.pdf</string>
+    <string name="SriIsopanishad">http://prabhupadabooks.com/pdf/Sri-Isopanisad-scans-of-original-1969-edition.pdf</string>
+    <string name="TheMatchlessGift">http://prabhupadabooks.com/pdf/Krsna-Consciousness-The-Matchless-Gift-Original-1974-book-scan.pdf</string>
+    <string name="RajaVidya">http://prabhupadabooks.com/pdf/Raja-Vidya_The_King_of_Knowledge-Original_1973_book_SCAN.pdf</string>
+    <string name="ThePerfectionofYoga">http://prabhupadabooks.com/pdf/The_Perfection_of_Yoga-Original_1972_Book_scan.pdf</string>
+    <string name="NectarofInstruction">http://prabhupadabooks.com/pdf/The_Nectar_of_Instruction-Original_1976_SCAN.pdf</string>
+    <string name="PerfectQuesPerfectAns">http://prabhupadabooks.com/pdf/Perfect_Questions_Perfect_Answers-Original_1977_Edition-SCAN.pdf</string>
+    <string name="NectarofDevotion">http://prabhupadabooks.com/pdf/The_Nectar_of_Devotion-1970_ISKCON_Press_edition-Hardcover-SCAN.pdf</string>
+    <string name="ElevationtoKC">http://prabhupadabooks.com/pdf/Elevation_to_Krsna_Consciousness-1973_SCAN.pdf</string>
+    <string name="KRISHNAVol1">http://prabhupadabooks.com/pdf/KRSNA_Book_Vol.1_1970_ISKCON_Press_edition_SCAN.pdf</string>
+    <string name="KRISHNAVol2">http://prabhupadabooks.com/pdf/KRSNA_Book_Vol.2_1970_ISKCON_Press_edition_SCAN.pdf</string>
+    <string name="OnTheWaytoKrishna">http://prabhupadabooks.com/pdf/On_the_Way_to_Krsna-1973_book_SCAN.pdf</string>
+    <string name="TeachingsofLordChaitanya">http://prabhupadabooks.com/pdf/Teachings_of_Lord_Chaitanya-1968_first_edition-SCAN.pdf</string>
+    <string name="ScienceofSelfRealisation">http://krishna.org/wp-content/uploads/2014/10/Science-of-Self-Realization-1977.pdf?0a6315</string>
+    <string name="LightofBhagawata">http://krishna.org/wp-content/uploads/2014/11/LOB.pdf?0a6315</string>
+    <string name="HareKrishnaCookBook">http://krishna.org/wp-content/uploads/2013/08/The-Hare-Krsna-Cookbook-1972.pdf?0a6315</string>
+    <string name="BeyondBirthAndDeath">http://www.radiokrishna.com/rkc_archive_new/Books/ENG/Beyond_Birth_and_Death.pdf</string>
+
+    <string name="title_activity_event_management">Event Management</string>
+
+
+    <drawable name="white">#ffffff</drawable>
+    <drawable name="black">#000000</drawable>
+    <drawable name="blue">#2554C7</drawable>
+    <drawable name="green">#347C2C</drawable>
+    <drawable name="orange">#ff9900</drawable>
+    <drawable name="pink">#FF00FF</drawable>
+    <drawable name="violet">#a020f0</drawable>
+    <drawable name="grey">#778899</drawable>
+    <drawable name="red">#C11B17</drawable>
+    <drawable name="yellow">#FFFF8C</drawable>
+    <drawable name="PowderBlue">#b0e0e6</drawable>
+    <drawable name="brown">#2F1700</drawable>
+    <drawable name="Hotpink">#7D2252</drawable>
+    <drawable name="dark_grey">#424242</drawable>
+
+</resources>

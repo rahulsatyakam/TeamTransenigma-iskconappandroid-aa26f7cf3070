@@ -1,0 +1,135 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/IskconTab</item>
+        <item name="colorPrimaryDark">@color/IskconTab</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.Dark" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <style name="AppTheme.Dark.Dialog" parent="Theme.AppCompat.Dialog">
+        <item name="colorAccent">@color/white</item>
+        <item name="android:textColorPrimary">@color/iron</item>
+        <item name="android:background">@color/primary</item>
+    </style>
+
+    <style name="ToolbarTheme" parent="Theme.AppCompat">
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="actionMenuTextColor">@color/black</item>
+        <item name="android:textColorSecondary">@color/black</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.NoActionBar" parent="@style/Theme.AppCompat">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Card">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">200dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+
+        <item name="cardBackgroundColor">@android:color/white</item>
+        <item name="cardCornerRadius">@dimen/card_corner_radius</item>
+        <item name="cardElevation">@dimen/card_elevation</item>
+    </style>
+
+    <style name="CardPhoto">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:tint">@color/photo_tint</item>
+        <item name="android:scaleType">centerCrop</item>
+        <!--<item name="riv_corner_radius">@dimen/card_corner_radius</item>-->
+    </style>
+
+    <style name="CardTitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:gravity">bottom|left</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:focusable">true</item>
+        <item name="android:background">?selectableItemBackground</item>
+    </style>
+
+    <style name="FloatingCard">
+        <item name="android:layout_width">@dimen/floating_button_size</item>
+        <item name="android:layout_height">@dimen/floating_button_size</item>
+        <item name="android:layout_marginBottom">@dimen/floating_button_margin</item>
+
+        <item name="cardBackgroundColor">@android:color/transparent</item>
+        <item name="cardCornerRadius">@dimen/floating_button_card_radius</item>
+        <item name="cardElevation">@dimen/button_elevation</item>
+        <item name="cardPreventCornerOverlap">false</item>
+    </style>
+
+    <style name="FloatingButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:minWidth">100dp</item>
+        <item name="android:minHeight">36dp</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:elevation">1dp</item>
+        <item name="android:translationZ">1dp</item>
+    </style>
+
+    <style name="dashboard">
+        <item name="android:numColumns">2</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <declare-styleable name="AnimCheckBox">
+        <attr name="stroke_width" format="dimension" />
+        <attr name="stroke_color" format="color" />
+        <attr name="circle_color" format="color" />
+    </declare-styleable>
+
+    <style name="Fade">
+        <item name="android:windowEnterAnimation">@anim/fadein</item>
+        <item name="android:windowExitAnimation">@anim/fadeout</item>
+    </style>
+
+    <style name="FadeOUT">
+        <item name="android:windowExitAnimation">@anim/fadeout</item>
+    </style>
+    <style name="bgTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal|center</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@drawable/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:background">@drawable/bg_gradiant</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:text">05</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+</resources>

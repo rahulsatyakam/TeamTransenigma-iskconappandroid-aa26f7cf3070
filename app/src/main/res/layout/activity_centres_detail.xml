@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/placeCard"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="0dp"
+    android:orientation="vertical"
+    card_view:cardCornerRadius="@dimen/card_corner_radius"
+    card_view:cardElevation="@dimen/card_elevation"
+    android:background="#ffffff"
+    tools:context="com.transenigma.iskconapp.centres_detail">
+        <LinearLayout
+            android:id="@+id/LinearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:id="@+id/myCentresImg"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/mayapur" />
+                <ImageView
+                    android:id="@+id/myLikeBtn"
+                    android:layout_width="55dp"
+                    android:layout_height="45dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginTop="4dp"
+                    android:scaleType="centerCrop"
+                    android:layout_gravity="right"
+                    android:src="@drawable/empty_heart"
+                    android:onClick="clickLikeBtn" />
+
+                <LinearLayout
+                    android:id="@+id/mainHolder"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_gravity="right|top">
+                    <LinearLayout
+                        android:id="@+id/placeNameHolder"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_gravity="bottom"
+                        android:orientation="vertical"
+                        android:background="#8FFF">
+
+                        <TextView
+                            android:id="@+id/myCentresName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="left"
+                            android:paddingLeft="10dp"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="ISKCON"
+                            android:fontFamily="sans-serif-light"
+                            android:textColor="#000000"
+                            android:textStyle="bold"
+                            android:textSize="25sp"
+                            android:shadowDx="1.2"
+                            android:shadowDy="1.2"
+                            android:shadowRadius="1.5"
+                            android:shadowColor="@color/black"
+                            android:layout_marginTop="2dp" />
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/imageView3"
+                                android:src="@drawable/nearme" />
+                            <TextView
+                                android:layout_width="348dp"
+                                android:layout_height="match_parent"
+                                android:textAppearance="?android:attr/textAppearanceSmall"
+                                android:id="@+id/myCentresAddress"
+                                android:paddingLeft="2dp"
+                                android:text="Address"
+                                android:fontFamily="sans-serif-light"
+                                android:textColor="#000000"
+                                android:textStyle="bold"
+                                android:shadowDx="1.2"
+                                android:shadowDy="1.2"
+                                android:shadowRadius="1.5"
+                                android:shadowColor="@color/black"
+                                android:layout_marginTop="1dp"
+                                android:layout_gravity="center_vertical" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </FrameLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#0c0c0c"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Interested"
+                    android:id="@+id/myGoing"
+                    android:onClick="clickGoingStatus"
+                    android:layout_weight="1"
+                    android:textColor="#000000"
+                    android:background="#ffffff" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="fill_parent"
+                    android:background="#0c0c0c"/>
+
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="May Be"
+                    android:id="@+id/myMayBe"
+                    android:onClick="clickGoingStatus"
+                    android:layout_weight="1"
+                    android:textColor="#000000"
+                    android:background="#ffffff" />
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="fill_parent"
+                    android:background="#0c0c0c"/>
+
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Not Interested"
+                    android:id="@+id/myNotGoing"
+                    android:onClick="clickGoingStatus"
+                    android:layout_weight="1"
+                    android:textColor="#000000"
+                    android:background="#ffffff" />
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#0c0c0c"/>
+
+            <TextView
+                android:id="@+id/myCentresDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:padding="10dp"
+                android:text="Description"
+                android:maxLines="50"
+                android:textSize="15sp"
+                android:lineSpacingMultiplier="1.5"
+                android:textColor="#000000"/>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#0c0c0c"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView android:id="@+id/myContactName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="17dp"
+                            android:gravity="center"
+                            android:focusableInTouchMode="false"
+                            />
+                    </android.support.design.widget.TextInputLayout>
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_gravity="left"
+                        android:src="@drawable/contactname" />
+                </FrameLayout>
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView android:id="@+id/myContactEmail"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="17dp"
+                            android:gravity="center"
+                            android:focusableInTouchMode="false"
+                            />
+                    </android.support.design.widget.TextInputLayout>
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_gravity="left"
+                        android:src="@drawable/contactemail" />
+                </FrameLayout>
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView android:id="@+id/myContactNo"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="17dp"
+                            android:gravity="center"
+                            android:focusableInTouchMode="false"
+                            />
+                    </android.support.design.widget.TextInputLayout>
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_gravity="left"
+                        android:src="@drawable/contactno" />
+                </FrameLayout>
+            </LinearLayout>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#0c0c0c" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Give Feedback"
+                    android:id="@+id/myGiveFeedback"
+                    android:onClick="clickGiveFeedback"
+                    android:layout_weight="1"
+                    android:textAllCaps="false"
+                    android:textColor="#000000"
+                    android:background="#ffffff" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="fill_parent"
+                    android:background="#0c0c0c"/>
+
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Mark as visited"
+                    android:id="@+id/myVisited"
+                    android:textAllCaps="false"
+                    android:onClick="clickAttended"
+                    android:layout_weight="1"
+                    android:textColor="#000000"
+                    android:background="#ffffff" />
+
+
+            </LinearLayout>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#0c0c0c" />
+            <ImageView
+                android:id="@+id/myCentresMapImg"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:scaleType="centerCrop" />
+        </LinearLayout>
+
+    </ScrollView>

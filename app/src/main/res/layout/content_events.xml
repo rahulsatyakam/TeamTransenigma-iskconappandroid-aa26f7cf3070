@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/toolbarLayout"
+       android:orientation="vertical"></LinearLayout>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:background="#344152"
+    android:paddingBottom="-0dp"
+    android:paddingTop="-0dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.transenigma.iskconapp.events"
+    tools:showIn="@layout/app_bar_events">
+
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/mytoolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+    <view
+        android:id="@+id/recycler_view"
+        class="android.support.v7.widget.RecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#344152"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="-0dp"
+        android:layout_marginRight="-0dp" />
+
+    <!--<ProgressBar-->
+        <!--android:id="@+id/progress_bar"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerInParent="true" />-->
+</RelativeLayout>
+</LinearLayout>

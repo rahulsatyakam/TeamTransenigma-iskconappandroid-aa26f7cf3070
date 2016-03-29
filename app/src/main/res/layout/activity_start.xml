@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--<ScrollView-->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--tools:context="com.transenigma.iskconapp.start"-->
+    <!--android:background="#ffffff">-->
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="com.transenigma.iskconapp.start"
+    android:background="#ffffff">
+
+    <com.transenigma.iskconapp.DynamicImageView
+        android:paddingTop="40dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/iskcon" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:layout_weight="1"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/terms"
+        android:padding="8dp"
+        android:textSize="12sp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#000000"
+        android:onClick="clickTerms" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#0c0c0c"
+        android:layout_alignTop="@+id/buttonHolder"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:layout_gravity="center|bottom"
+        android:id="@+id/buttonHolder">
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/myHomeLoginBtn"
+        android:onClick="clickHomeLoginBtn"
+        android:layout_weight="1"
+        android:textColor="#000000"
+        android:background="#ffffff" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="fill_parent"
+        android:background="#0c0c0c"/>
+
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP"
+        android:id="@+id/myHomeSignupBtn"
+        android:onClick="clickHomeSignupBtn"
+        android:layout_weight="1"
+        android:textColor="#000000"
+        android:background="#ffffff" />
+
+
+</LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#0c0c0c" />
+
+</LinearLayout>
+
+
+    <!--</ScrollView>-->

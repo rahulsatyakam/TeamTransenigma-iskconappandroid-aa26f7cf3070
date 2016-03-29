@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/myEventAll"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="5dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:scaleType="fitXY"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                android:src="@drawable/nearme" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#222"
+                android:textSize="15dp"
+                android:text="@string/Near_Me"
+                android:layout_marginLeft="35dp"
+                android:layout_gravity="center_vertical"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/myEventCity"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="5dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:scaleType="fitXY"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                android:src="@drawable/city" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#222"
+                android:textSize="15dp"
+                android:text="@string/City"
+                android:layout_marginLeft="35dp"
+                android:layout_gravity="center_vertical"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/myEventState"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="5dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:scaleType="fitXY"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                android:src="@drawable/state" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#222"
+                android:textSize="15dp"
+                android:text="@string/State"
+                android:layout_marginLeft="35dp"
+                android:layout_gravity="center_vertical"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/myEventCountry"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="5dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:scaleType="fitXY"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                android:src="@drawable/country" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#222"
+                android:textSize="15dp"
+                android:text="@string/Country"
+                android:layout_marginLeft="35dp"
+                android:layout_gravity="center_vertical"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/myEventWorld"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="5dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:scaleType="fitXY"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                android:src="@drawable/world" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#222"
+                android:textSize="15dp"
+                android:text="@string/World"
+                android:layout_marginLeft="35dp"
+                android:layout_gravity="center_vertical"
+                />
+
+        </LinearLayout>
+
+</LinearLayout>

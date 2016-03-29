@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.transenigma.iskconapp.fbloginFragment"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+
+    <!--<TextView-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="New Text"-->
+        <!--android:id="@+id/textView"-->
+        <!--android:layout_centerHorizontal="true"/>-->
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"/>
+
+
+
+
+</LinearLayout>

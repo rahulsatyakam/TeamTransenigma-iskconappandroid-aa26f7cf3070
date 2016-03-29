@@ -1,0 +1,47 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".home">
+
+    <group >
+        <!--<item-->
+            <!--android:id="@+id/myHomeLogout"-->
+            <!--android:title="@string/logout"-->
+            <!--android:orderInCategory="1"-->
+            <!--app:showAsAction="never" />-->
+
+        <!--<item-->
+            <!--android:id="@+id/myHomeProfile"-->
+            <!--android:title="@string/profile"-->
+            <!--android:orderInCategory="1"-->
+            <!--app:showAsAction="never" />-->
+
+        <item
+            android:id="@+id/myVisitedEvents"
+            android:title="@string/VisitedEvents"
+            android:orderInCategory="1"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/myAddEvents"
+            android:title="@string/AddEvents"
+            android:orderInCategory="1"
+            app:showAsAction="never" />
+
+        <!--<item-->
+            <!--android:id="@+id/myVisitedCentres"-->
+            <!--android:title="@string/VisitedCentres"-->
+            <!--android:orderInCategory="1"-->
+            <!--app:showAsAction="never" />-->
+
+
+
+
+
+        <item
+            android:id="@+id/myEventManagement"
+            android:title="@string/EventManagement"
+            android:orderInCategory="1"
+            app:showAsAction="never" />
+
+    </group>
+</menu>

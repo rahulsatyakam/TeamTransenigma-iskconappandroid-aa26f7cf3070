@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="80dp">
+
+
+        <LinearLayout
+            android:id="@+id/myHomeProfile"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:scaleType="fitXY"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                android:src="@drawable/edit_profile" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#222"
+                android:textSize="25dp"
+                android:text="Profile"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_marginLeft="35dp"
+                android:layout_gravity="center_vertical"
+                 />
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>
+
+
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:cardview="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="80dp">
+
+<LinearLayout
+    android:id="@+id/myHomeLogout"
+android:layout_width="match_parent"
+android:layout_height="80dp"
+android:orientation="horizontal">
+
+<ImageView
+    android:layout_width="75dp"
+    android:layout_height="75dp"
+    android:scaleType="fitXY"
+    android:padding="5dp"
+    android:layout_gravity="center"
+    android:src="@drawable/logout" />
+
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="#222"
+    android:textSize="25dp"
+    android:text="LogOut"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:layout_marginLeft="35dp"
+    android:layout_gravity="center_vertical"
+    />
+
+</LinearLayout>
+
+</android.support.v7.widget.CardView>
+
+</LinearLayout>

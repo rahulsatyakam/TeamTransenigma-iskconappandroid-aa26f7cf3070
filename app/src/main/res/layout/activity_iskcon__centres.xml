@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.transenigma.iskconapp.ISKCON_Centres"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:local="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/iskconCentres_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/IskconTab"
+        android:minHeight="?attr/actionBarSize"
+        local:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        local:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+
+    <com.transenigma.iskconapp.PagerSlidingTabStrip
+        android:id="@+id/Centrestabs"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:fillViewport="false" />
+
+    <com.transenigma.iskconapp.NonSwipeableViewPager
+        android:id="@+id/Centrespager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        tools:context=".about">
+
+
+    </com.transenigma.iskconapp.NonSwipeableViewPager>
+
+
+
+</LinearLayout>
